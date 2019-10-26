@@ -1,3 +1,3 @@
 # Swing Design
 
-Some UI examples made by swing.
+Some UI examples built in swing.
