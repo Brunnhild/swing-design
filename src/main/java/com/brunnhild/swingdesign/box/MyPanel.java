@@ -11,8 +11,11 @@ class MyPanel extends JPanel {
 
         add(Box.createGlue());
         for(int i = 0; i < 3; i++) {
+
             /* Creates a Box that displays its components along the the specified axis. */
             Box hbox = new Box(BoxLayout.X_AXIS);
+
+            /* The same to use JSeparator. */
             hbox.add(Box.createGlue());
             hbox.add(new JButton("Swing Design " + i));
             hbox.add(Box.createGlue());
